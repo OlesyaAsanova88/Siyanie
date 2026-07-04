@@ -86,10 +86,10 @@ body {
         opacity: 0.8;
     }
     &_text {
-        color: $mainColor-text;
+        color: #fff;
         text-shadow: 1px 1px 1px $mainColor-text;
         font-size: 1.5rem;
-        opacity: 0.8;
+        //opacity: 0.8;
     }
 }
 .info {
@@ -120,7 +120,7 @@ body {
 }
  
 .compleks {
-    width: 700px;
+    width: 1000px;
     height: 550px;
     border-radius: 20px;
     box-shadow: $mainBoxShadow;
@@ -155,6 +155,10 @@ body {
     .swiper-slide img {
       display: block;
       width: 100%;
+    }
+    .works{
+        border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 11px rgba(0, 0, 0, 0.1);
     }
     .qr {
         margin-bottom: 15px;
@@ -228,4 +232,19 @@ body {
             width: 100%;
             height: 320px;
         }
+        .qr {
+            width: 80px;
+            height: 80px;
+            
+        }
      }
+
+      #stars-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
